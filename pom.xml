@@ -67,7 +67,7 @@
                 </executions>
                 <configuration>
                     <repository>${docker.registry.name.prefix}/${project.artifactId}</repository>
-                    <tag>jenkinstest</tag>
+                    <tag>giaogiao</tag>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
