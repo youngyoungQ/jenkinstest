@@ -7,6 +7,6 @@ VOLUME /tmp
 # 杩愯jar鍖?
 RUN mkdir /opt/app
 #类似于linux copy指令
-ADD ${JAR_FILE} /opt/app/
+COPY ${JAR_FILE} /opt/app
 #执行命令 java -jar /opt/app/demo-docker.jar
 CMD ["java", "-jar", "/opt/app/*.jar"]
