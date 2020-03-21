@@ -9,4 +9,4 @@ RUN mkdir /opt/app
 #类似于linux copy指令
 ADD ${JAR_FILE}  app.jar
 #执行命令 java -jar /opt/app/demo-docker.jar
-CMD ["java", "-jar", "/app.jar"]
+CMD ["java", "-jar", "/*.jar"]
