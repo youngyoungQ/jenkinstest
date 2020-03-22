@@ -11,7 +11,7 @@ public class Controller {
     @RequestMapping(value = "/get",method = RequestMethod.GET)
     public String get(){
 
-        return "get";
+        return "武汉加油";
     }
 
 
